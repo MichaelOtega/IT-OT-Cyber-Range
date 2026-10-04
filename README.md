@@ -24,7 +24,7 @@ The testbed leverages VirtualBox for virtualization and is segmented into distin
 3.  The Detection: The Wazuh Manager aggregates the Zeek network logs alongside endpoint telemetry, triggering a high-severity alert for unauthorized lateral movement and OT manipulation.
 4.  The Mitigation: Validated the necessity of network segmentation and strict firewall access control lists (ACLs) to drop unauthorized Modbus TCP requests before they reach the controller layer.
 
-Governance, Risk, and Compliance (GRC) Integration
+Governance, Risk, and Compliance (GRC) Integration:
 Beyond technical detection, this cyber range is mapped against industry-standard frameworks to demonstrate the business impact of OT vulnerabilities and the necessity of defense-in-depth controls.
 
 Framework Alignment (NIST & IEC 62443): The segmented architecture actively enforces the Purdue Enterprise Reference Architecture (PERA). The technical controls simulate compliance with IEC 62443-3-3 (System security requirements) and NIST SP 800-82 (Guide to ICS Security) by strictly isolating the OT cell from the corporate IT environment.
