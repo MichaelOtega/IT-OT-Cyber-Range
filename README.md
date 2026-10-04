@@ -34,3 +34,4 @@ Risk Management & Business Impact: The simulated Modbus TCP manipulation (Scenar
 Control Validation (ISO 27001 & ISO 22301): The project validates core technical controls required for global compliance audits. By providing evidentiary logs for network segregation, continuous monitoring, and incident response readiness, the architecture supports business continuity objectives during an active cyber event.
 
 Standardized Threat Intelligence: Threat detection rules within the SIEM are explicitly mapped to the MITRE ATT&CK for ICS matrix, specifically tracking Lateral Movement (TA0109) and Impair Process Control (TA0106), ensuring the security operations center speaks a standardized language during incident escalation.
+
